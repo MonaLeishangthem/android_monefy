@@ -3,15 +3,15 @@
 **Below are the ideas which I would test for Monefy application**
 
 ## 1. Adding/deleting/ Updating an expense/income:
-i.  addition/deletion/updating entries for the predefined income category
-ii.  addition of a new income category and addition/deletion/updating the new income entries
-iii. addition/deletion/updating entries for the predefined expense category
-iv. addition of a new income category and addition/deletion/updating the new expense entries
-v. adding expenses and income using images and +/- icons
-vi. make sure the data is reflected corected.
-vii. scheduling feature for income/expenses
-viii. multiple schedule to add income/expense at the same time to check the performance of the app
-ix. edge case of maximum expense category which can be added 
+i.  addition/deletion/updating entries for the predefined income category<br/>
+ii.  addition of a new income category and addition/deletion/updating the new income entries<br/>
+iii. addition/deletion/updating entries for the predefined expense category<br/>
+iv. addition of a new income category and addition/deletion/updating the new expense entries<br/>
+v. adding expenses and income using images and +/- icons<br/>
+vi. make sure the data is reflected corected.<br/>
+vii. scheduling feature for income/expenses<br/>
+viii. multiple schedule to add income/expense at the same time to check the performance of the app<br/>
+ix. edge case of maximum expense category which can be added <br/>
 
 ## 2. Chart display & Filter
 i. validate that the expense calculation(the percentile values) is correct

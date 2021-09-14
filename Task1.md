@@ -2,7 +2,7 @@
 Please find below the two charters which I have planned for this task. Also please find the bugs identified. 
 
 * I would prioritise charter 001 and mainly focus on adding and updating the expenses. I would explore first the feature which will be frequently used by the user which is to add/update/undo multiple expenses and income. I would also check they are added to the correct category and correct accounts. This is the data on which the app works so it is very important. Secondly I would check the processed chart information. This is the main feature of the app. 
-* I have specified the duration of each chater. Chapter001 should be max 2hours, Chapter002 around 30 mins and for Chapter003, I have prepared it but could not explored as i do not have subscription.
+* I have specified the duration of each chater. Chapter001 should be max 2hours, Chapter002 around 30 mins and for Chapter003, I have prepared it but could not explore as i do not have subscription.
 * Overtime the app will have thousand of entries. I would keep an eye on the performance and memory usage of the application when there are thousand of entries.
 
 
@@ -38,7 +38,7 @@ I test the chart landing page and its data. For this, i performed various tasks 
 
 
 #### Bugs:
-1. Description: Last account is taken by default while adding expenses/income when there is multiple accounts. 
+1. Description: Last account is taken by default while adding expenses/income when there is multiple accounts.<br/>
 Steps to Reproduce:
     1. Open app and create two accounts- A and B. Add income for B.
     2. In the filter, select 'all counts'. Then add the a new income by clikcing on + iocn. The income is added to B. 
@@ -47,12 +47,12 @@ Steps to Reproduce:
     5. Select C account and add an income for C account. 
     6. Select all account and add an income. The new income is added to C. 
 
-Actual: The account seems to be taken from the last addition cache. 
+Actual: The account seems to be taken from the last addition cache.<br/>
 Expected: It should either ask for an account or notify the user which account he/she is adding the income. 
 
 
 #### Issues:
-1. How many days will be listed when the overview display is by calender day? 
+1. How many days will be listed when the overview display is 'by calender day'? 
 3. I am not sure how the chart will be if there is multicurrency. Will it be just the numerical values or will it have expense rate into consideration. 
 
 
@@ -83,12 +83,12 @@ I touched each menu item in the additional menu options. Mainly focusing on mult
 
 
 #### Bugs:
-1. Description: Changing of currency changes the currency of past entries. 
+1. Description: Changing of currency changes the currency of past entries. <br/>
 Steps to Reproduce:
     1. Open app and enter some income and expense
     2. Change the currency. 
 
-Actual: The new currency is reflected for the existing entries also.
+Actual: The new currency is reflected for the existing entries also.<br/>
 Expected: The new currency should reflect for new income/expenses only. It can be that the user moved in a different country and he/she would like to keep the old record in old currency and new record in new currency. This is not exactly multicurrency but rather two uni currency . Maybe a business analyst can decide on this.
 
 
