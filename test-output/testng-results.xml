@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UATRegression" duration-ms="81412" started-at="2021-09-14T21:13:28 CEST" finished-at="2021-09-14T21:14:49 CEST">
+    <groups>
+    </groups>
+    <test name="BasicFlowE2E" duration-ms="81412" started-at="2021-09-14T21:13:28 CEST" finished-at="2021-09-14T21:14:49 CEST">
+      <class name="tests.BasicFlowE2E">
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:tests.BasicFlowE2E@3b6ddd1d]" name="classSetUp" is-config="true" duration-ms="17790" started-at="2021-09-14T21:13:28 CEST" finished-at="2021-09-14T21:13:46 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="addAccounts()[pri:1, instance:tests.BasicFlowE2E@3b6ddd1d, instance params:[750.0, 300.0, $5,000.00, $1,050.00, 5000.0, Regnar, Meera, Savings, House, Car, $750.00]]" name="addAccounts" duration-ms="15586" started-at="2021-09-14T21:13:46 CEST" finished-at="2021-09-14T21:14:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAccounts -->
+        <test-method status="PASS" signature="ValidateAccounts()[pri:2, instance:tests.BasicFlowE2E@3b6ddd1d, instance params:[750.0, 300.0, $5,000.00, $1,050.00, 5000.0, Regnar, Meera, Savings, House, Car, $750.00]]" name="ValidateAccounts" duration-ms="9467" started-at="2021-09-14T21:14:01 CEST" finished-at="2021-09-14T21:14:11 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAccounts -->
+        <test-method status="PASS" signature="AddIncome()[pri:3, instance:tests.BasicFlowE2E@3b6ddd1d, instance params:[750.0, 300.0, $5,000.00, $1,050.00, 5000.0, Regnar, Meera, Savings, House, Car, $750.00]]" name="AddIncome" duration-ms="10078" started-at="2021-09-14T21:14:11 CEST" finished-at="2021-09-14T21:14:21 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddIncome -->
+        <test-method status="PASS" signature="AddExpense()[pri:4, instance:tests.BasicFlowE2E@3b6ddd1d, instance params:[750.0, 300.0, $5,000.00, $1,050.00, 5000.0, Regnar, Meera, Savings, House, Car, $750.00]]" name="AddExpense" duration-ms="15231" started-at="2021-09-14T21:14:21 CEST" finished-at="2021-09-14T21:14:36 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddExpense -->
+        <test-method status="PASS" signature="ValidateTotal()[pri:5, instance:tests.BasicFlowE2E@3b6ddd1d, instance params:[750.0, 300.0, $5,000.00, $1,050.00, 5000.0, Regnar, Meera, Savings, House, Car, $750.00]]" name="ValidateTotal" duration-ms="4391" started-at="2021-09-14T21:14:36 CEST" finished-at="2021-09-14T21:14:40 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTotal -->
+        <test-method status="PASS" signature="AssertCategoryList()[pri:6, instance:tests.BasicFlowE2E@3b6ddd1d, instance params:[750.0, 300.0, $5,000.00, $1,050.00, 5000.0, Regnar, Meera, Savings, House, Car, $750.00]]" name="AssertCategoryList" duration-ms="2113" started-at="2021-09-14T21:14:40 CEST" finished-at="2021-09-14T21:14:42 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertCategoryList -->
+        <test-method status="PASS" signature="AssertCategoryAndValue()[pri:7, instance:tests.BasicFlowE2E@3b6ddd1d, instance params:[750.0, 300.0, $5,000.00, $1,050.00, 5000.0, Regnar, Meera, Savings, House, Car, $750.00]]" name="AssertCategoryAndValue" duration-ms="542" started-at="2021-09-14T21:14:42 CEST" finished-at="2021-09-14T21:14:43 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertCategoryAndValue -->
+        <test-method status="PASS" signature="clearData()[pri:8, instance:tests.BasicFlowE2E@3b6ddd1d, instance params:[750.0, 300.0, $5,000.00, $1,050.00, 5000.0, Regnar, Meera, Savings, House, Car, $750.00]]" name="clearData" duration-ms="6167" started-at="2021-09-14T21:14:43 CEST" finished-at="2021-09-14T21:14:49 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearData -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:tests.BasicFlowE2E@3b6ddd1d]" name="afterclass" is-config="true" duration-ms="0" started-at="2021-09-14T21:14:49 CEST" finished-at="2021-09-14T21:14:49 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.BasicFlowE2E@3b6ddd1d]" name="tearDown" is-config="true" duration-ms="2137" started-at="2021-09-14T21:14:49 CEST" finished-at="2021-09-14T21:14:51 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BasicFlowE2E -->
+    </test> <!-- BasicFlowE2E -->
+  </suite> <!-- UATRegression -->
+</testng-results>

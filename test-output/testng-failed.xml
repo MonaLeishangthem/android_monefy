@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UATRegression]">
+  <test thread-count="5" name="BasicFlowE2E(failed)">
+    <classes>
+      <class name="tests.BasicFlowE2E">
+        <methods>
+          <include name="ValidateCategory"/>
+          <include name="AddExpense"/>
+          <include name="classSetUp"/>
+          <include name="afterclass"/>
+          <include name="ValidateTotal"/>
+          <include name="tearDown"/>
+          <include name="ValidateCategoryValue"/>
+          <include name="clearData"/>
+          <include name="AddIncome"/>
+        </methods>
+      </class> <!-- tests.BasicFlowE2E -->
+    </classes>
+  </test> <!-- BasicFlowE2E(failed) -->
+</suite> <!-- Failed suite [UATRegression] -->

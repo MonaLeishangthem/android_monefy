@@ -5,6 +5,7 @@
 Why this technology stack? 
 1. Appium can be used for both iOS and Andoroid. It is open source and has very active community. Flexibility to choose programming language as it supports multiple. Also it can be used for web for hybrid applications . 
 2. TestNG provides a lots of flexibility to command and structure the framework. 
+3. Emailable report generation is possible with TestNG. 
 3. Maven helps in maintaing the dependencies. 
 4. We can import many other dependencies such as OpenCV for image compare, testinium to get the UDIDs of devices so that device identification is dynamic, sikuli for desktop interaction, selenium grid for parallel execution etc. All this provides a lot of flexibility for the engineer.
 
